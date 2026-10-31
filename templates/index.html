@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Make room for your best work with Northstar, the calm and connected workspace for your team.">
+    <meta name="theme-color" content="#f7f8f5">
+    <title>Northstar — Find your team's flow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#" aria-label="Northstar home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" fill="none"><path d="M18 3.5 21.6 14.4 32.5 18l-10.9 3.6L18 32.5l-3.6-10.9L3.5 18l10.9-3.6L18 3.5Z" fill="currentColor"/><circle cx="18" cy="18" r="3.1" fill="#F7F8F5"/></svg>
+          </span>
+          <span>northstar</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#features">Product</a>
+          <a href="#story">Our story</a>
+          <a href="#pricing">Pricing</a>
+          <a class="nav-login" href="#get-started">Log in <span aria-hidden="true">↗</span></a>
+          <a class="button button-small" href="#get-started">Get started <span aria-hidden="true">→</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <a class="announcement" href="#features"><span class="announcement-dot"></span> A little more focus. A lot more flow. <span aria-hidden="true">↗</span></a>
+          <h1>Good work<br>starts with <span>good space.</span></h1>
+          <p class="hero-description">The thoughtful workspace that brings your people, projects, and plans together — so your team can do its best work.</p>
+          <div class="hero-actions">
+            <a class="button" href="#get-started">Find your flow <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#features"><span class="play-icon" aria-hidden="true">▶</span> See how it works</a>
+          </div>
+          <div class="social-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar-one">J</span><span class="avatar avatar-two">M</span><span class="avatar avatar-three">A</span><span class="avatar avatar-four">S</span>
+            </div>
+            <p><strong>Loved by teams that care</strong><br><span>Join 12,000+ happy collaborators</span></p>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Illustration of a team workspace dashboard">
+          <div class="art-glow"></div>
+          <div class="floating-note note-top"><span class="note-check">✓</span><span><strong>Big ideas, meet done.</strong><small>Project launch · just now</small></span></div>
+          <div class="dashboard">
+            <div class="dash-sidebar">
+              <div class="dash-logo"><span class="mini-star">✳</span> northstar</div>
+              <div class="dash-workspace"><span class="workspace-dot"></span> Studio team <span class="chevron">⌄</span></div>
+              <div class="side-label">WORKSPACE</div>
+              <div class="side-item active"><span>▦</span> Overview</div>
+              <div class="side-item"><span>◷</span> My tasks <i>4</i></div>
+              <div class="side-item"><span>▧</span> Projects</div>
+              <div class="side-item"><span>▤</span> Documents</div>
+              <div class="side-label side-label-later">YOUR SPACES</div>
+              <div class="side-item"><span class="project-dot coral"></span> Brand refresh</div>
+              <div class="side-item"><span class="project-dot blue"></span> Spring launch</div>
+              <div class="side-item"><span class="project-dot yellow"></span> Website</div>
+              <div class="sidebar-bottom"><span class="avatar avatar-two">M</span><span>Morgan Lee<small>Free plan</small></span><span class="chevron">···</span></div>
+            </div>
+            <div class="dash-main">
+              <div class="dash-top"><span>Monday, October 26</span><span class="dash-top-right"><span>⌕</span> <span class="dash-avatar">J</span><span class="dash-avatar dash-avatar-alt">A</span><b>+</b></span></div>
+              <div class="welcome">Good morning, Morgan <span>✦</span></div>
+              <div class="welcome-caption">Here’s what’s happening with your team today.</div>
+              <div class="dash-section-head"><strong>Your focus</strong><span>View all <b>→</b></span></div>
+              <div class="task-card">
+                <span class="task-check"></span><span class="task-label"><strong>Review the new brand direction</strong><small><i class="project-dot coral"></i> Brand refresh <span>·</span> Today</small></span><span class="task-person">S</span>
+              </div>
+              <div class="task-card">
+                <span class="task-check"></span><span class="task-label"><strong>Share launch plan with the team</strong><small><i class="project-dot blue"></i> Spring launch <span>·</span> Today</small></span><span class="task-person task-person-gold">J</span>
+              </div>
+              <div class="task-card task-card-done">
+                <span class="task-check checked">✓</span><span class="task-label"><strong>Collect inspiration for homepage</strong><small><i class="project-dot yellow"></i> Website <span>·</span> Done</small></span><span class="task-person task-person-purple">A</span>
+              </div>
+              <div class="dash-section-head activity-head"><strong>Team activity</strong><span>•••</span></div>
+              <div class="activity-row"><span class="activity-avatar activity-pink">J</span><span><b>Jamie</b> completed <b>Wireframe review</b><small>Brand refresh · 24 min ago</small></span></div>
+              <div class="activity-row"><span class="activity-avatar activity-blue">S</span><span><b>Sam</b> shared a new update<small>Spring launch · 1 hour ago</small></span></div>
+            </div>
+          </div>
+          <div class="floating-note note-bottom"><span class="sparkle">✳</span><span><strong>Look at you go!</strong><small>3 things off your list today</small></span><span class="note-progress"></span></div>
+          <div class="art-decoration decoration-one"></div>
+          <div class="art-decoration decoration-two"></div>
+        </div>
+      </section>
+
+      <section class="trusted container" aria-label="Trusted by teams">
+        <p>GOOD COMPANY, GOOD WORK</p>
+        <div class="company-logos">
+          <span class="logo-summit"><span>▲</span> summit</span>
+          <span class="logo-orbit"><span>◉</span> orbit</span>
+          <span class="logo-fable">fable<span>®</span></span>
+          <span class="logo-layer"><span>▰</span> layer</span>
+          <span class="logo-kin">kin<span>.</span></span>
+        </div>
+      </section>
+
+      <section class="features-section" id="features">
+        <div class="container">
+          <div class="section-intro">
+            <span class="eyebrow"><span>✳</span> LESS BUSYWORK, MORE BRILLIANT</span>
+            <h2>Everything in its place.<br><span>Everyone in their element.</span></h2>
+            <p>All the pieces your team needs, finally working together. No tab overload required.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card feature-card-large">
+              <div class="feature-visual visual-focus"><div class="focus-orbit orbit-a"></div><div class="focus-orbit orbit-b"></div><div class="focus-core">✳</div><span class="orbit-tag tag-one">Your priorities</span><span class="orbit-tag tag-two">Team goals</span><span class="orbit-tag tag-three">Room to think</span></div>
+              <div class="feature-copy"><span class="feature-number">01 — FIND YOUR FOCUS</span><h3>A clear headspace<br>for the big stuff.</h3><p>Bring tasks, notes, and plans into one calm home base. Know what matters today, and let the rest wait.</p><a class="feature-link" href="#get-started">Explore your workspace <span>→</span></a></div>
+            </article>
+            <article class="feature-card feature-card-small">
+              <div class="feature-visual visual-team"><span class="team-sun">✳</span><span class="team-card team-card-one"><b>Ideas, together</b><small>Make space for good ones.</small><i>☺　☺　☺</i></span><span class="team-card team-card-two">A little progress adds up <b>↗</b></span><span class="team-person">J</span><span class="team-person team-person-two">A</span></div>
+              <div class="feature-copy"><span class="feature-number">02 — MAKE IT TOGETHER</span><h3>Teamwork that<br>feels like team work.</h3><p>Keep conversations connected to the work, so the good ideas never get lost in the scroll.</p><a class="feature-link" href="#get-started">See how teams connect <span>→</span></a></div>
+            </article>
+            <article class="feature-card feature-card-small">
+              <div class="feature-visual visual-progress"><div class="progress-window"><div class="progress-window-top"><span>Project pulse</span><span>•••</span></div><div class="progress-heading">Spring launch <span>✳</span></div><div class="progress-line"><span></span></div><div class="progress-labels"><small>Looking good</small><small>72%</small></div><div class="progress-avatars"><i>J</i><i>M</i><i>S</i><b>+2</b></div></div><span class="progress-spark">✦</span></div>
+              <div class="feature-copy"><span class="feature-number">03 — SEE THE WHOLE PICTURE</span><h3>Small steps. Big<br>picture progress.</h3><p>Keep projects moving and spot what needs attention before it becomes a thing.</p><a class="feature-link" href="#get-started">Meet your new overview <span>→</span></a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="container story-content">
+          <span class="eyebrow"><span>✦</span> A BETTER WAY TO WORK</span>
+          <h2>More doing what you love.<br><span>Less “where did I put that?”</span></h2>
+          <p>Work shouldn't feel like work about work. Northstar gives your team the space and clarity to make meaningful progress, together.</p>
+          <a class="button button-light" href="#get-started">Make room for good work <span>→</span></a>
+          <div class="story-stats"><div><strong>12k<span>+</span></strong><small>teams finding their flow</small></div><div><strong>4.9<span>/5</span></strong><small>from people who get it</small></div><div><strong>2.4m</strong><small>good ideas brought to life</small></div></div>
+        </div>
+      </section>
+
+      <section class="cta-section container" id="get-started">
+        <div class="cta-card">
+          <div class="cta-decoration">✳</div>
+          <span class="eyebrow"><span>✳</span> YOUR NEXT CHAPTER STARTS HERE</span>
+          <h2>Ready for work<br>to feel a little <span>lighter?</span></h2>
+          <p>Good things happen when everything clicks. Come find your team's flow.</p>
+          <a class="button" href="mailto:hello@northstar.example?subject=Let's%20find%20our%20flow">Get started for free <span>→</span></a>
+          <small>No credit card. No big commitment. Just a little more clarity.</small>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container" id="pricing">
+      <a class="brand" href="#" aria-label="Northstar home"><span class="brand-mark"><svg viewBox="0 0 36 36" fill="none"><path d="M18 3.5 21.6 14.4 32.5 18l-10.9 3.6L18 32.5l-3.6-10.9L3.5 18l10.9-3.6L18 3.5Z" fill="currentColor"/></svg></span><span>northstar</span></a>
+      <p>Make room for your best work.</p>
+      <div class="footer-links"><a href="#features">Product</a><a href="#story">About</a><a href="#pricing">Pricing</a><a href="mailto:hello@northstar.example">Contact</a></div>
+      <span class="copyright">© 2026 Northstar Studio</span>
+    </footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+  </body>
+</html>
